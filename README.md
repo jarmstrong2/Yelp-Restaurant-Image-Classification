@@ -19,3 +19,8 @@ ID | Classification
 8 | good_for_kids
 
 These labels are annotated by the Yelp community. Your task is to predict these labels purely from the business photos uploaded by users. 
+
+Competition Solution
+-----------------------
+As with many other submissions, my solutions began by using a pre-trained image classification network. 
+This network was the inception network: https://github.com/tensorflow/models/tree/master/inception.
