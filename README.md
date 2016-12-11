@@ -5,6 +5,7 @@ Competition Description
 -----------------------
 In this competition, you are given photos that belong to a business and asked to predict the business attributes. There are 9 different attributes in this problem:
 
+Markdown | Less
 - | ------------
 0 | good_for_lunch
 1 | good_for_dinner
