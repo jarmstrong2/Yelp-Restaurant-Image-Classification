@@ -35,3 +35,7 @@ a randomly selected handful to classify the type of dining experience.
 Finally, I took all output vectors from each timestep of the RNN and averaged the entire set. This average vector is then used as input
 to 10 different networks (9 classification IDs, and 1 ID for a restaurant with no ID). Each of these networks then decides the classification
 of the restaurant based on the probability that this series of image vectors correlates with being good for lunch, good for dinner, etc.
+
+Model
+-----------------------
+![alt text](https://github.com/jarmstrong2/Yelp-Restaurant-Image-Classification/blob/master/network.jpg)
