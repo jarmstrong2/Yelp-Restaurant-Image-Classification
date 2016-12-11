@@ -1,6 +1,6 @@
 # Yelp Restaurant Image Classification
 https://www.kaggle.com/c/yelp-restaurant-photo-classification
-###### Note: Will not include data due to copyright, but will include model and training code.
+###### Note: Will not include data due to copyright, but will include model and training code. Also, code not fully functional without data.
 
 Competition Description
 -----------------------
