@@ -24,14 +24,14 @@ Competition Solution
 -----------------------
 As with many other submissions, my solution began with using a pre-trained image classification network. 
 This network was the inception network: https://github.com/tensorflow/models/tree/master/inception. 
-Using inception net and removing the last couple fully connected layers, using the images in the training set,
-I was able to collect vectors that would fairly accurately differentiate between features in restaurant images.
+Using inception net and removing the last couple fully connected layers, I was able to collect vectors that 
+would fairly accurately differentiate between features in restaurant images.
 
 With the collection of image vectors, I decided to focus on building an RNN model using LSTMS and a limited number of
-timesteps. For each timesteps we would randomly choose, from usually several hundreds of images, a vector from a specific 
-restaurant, and use it as input. The rationale being, that instead of using the entire image set from each restaurant, we use
+timesteps. For each timestep we would randomly choose, from usually several hundreds of images, a vector from a specific 
+restaurant image, and use it as input. The rationale being, that instead of using the entire image set (or image vectors) from each restaurant, we use
 a randomly selected handful to classify the type of dining experience.
 
-Taking all output vectors from each timestep of the RNN, we average over the entire set. This averaged vector is then used as input
+Finally, I took all output vectors from each timestep of the RNN and averaged the entire set. This average vector is then used as input
 to 10 different networks (9 classification IDs, and 1 ID for a restaurant with no ID). Each of these networks then decides the classification
 of the restaurant based on the probability that this series of image vectors correlates with being good for lunch, good for dinner, etc.
