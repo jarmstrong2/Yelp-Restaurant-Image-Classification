@@ -7,7 +7,15 @@ In this competition, you are given photos that belong to a business and asked to
 
 Markdown | Less
 --- | ---
-1 | 2
+0 | good_for_lunch
+1 | good_for_dinner
+2 | takes_reservations
+3 | outdoor_seating
+4 | restaurant_is_expensive
+5 | has_alcohol
+6 | has_table_service
+7 | ambience_is_classy
+8 | good_for_kids
 
 Markdown | Less
 -- | ------------
