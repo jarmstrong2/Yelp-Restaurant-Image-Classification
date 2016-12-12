@@ -39,3 +39,7 @@ of the restaurant based on the probability that this series of image vectors cor
 Model
 -----------------------
 ![alt text](https://github.com/jarmstrong2/Yelp-Restaurant-Image-Classification/blob/master/network.jpg)
+
+Classification Unit
+-----------------------
+![alt text](https://github.com/jarmstrong2/Yelp-Restaurant-Image-Classification/blob/master/classunit.jpg)
